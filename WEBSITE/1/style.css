@@ -1,0 +1,434 @@
+
+
+
+  ul{
+  }
+  ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 70px;
+  }
+  ul li a{
+  display: block;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Arial; 
+  font-weight: 600;
+  padding: 0 40px;
+  color: black;
+  }
+  ul li a:hover {
+  color: white;
+  }
+    nav{
+  width: 100%;
+  height: 70px;
+  background-color: rgb(200,162,122);
+  }
+
+
+
+
+
+    .title h1{
+  font-size: 120px;
+  font-family: Georgia;  
+  text-align: center;
+  position: absolute;
+  color: rgb(200,162,122);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.title h1:hover {
+  color: black;
+  }
+.logo{
+padding: 50px;
+  margin-left: 44%;
+}
+.about h1{
+    font-size: 100px;
+  font-family: Georgia;  
+  text-align: center;
+}
+.about p{
+  margin-top: 20%;
+  margin-right: 50%;
+  margin-left: 10%;
+  font-size: 30px;
+  font-family: Georgia;  
+  text-align: center;
+}
+    .about hr{
+width: 80%;
+height: 10px;
+background-color: black;
+margin-right: auto;
+margin-left: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.shop{
+    position: relative;
+  width: 100%;
+  float: right;
+  margin: 10px;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+.coff{
+  position: relative;
+  width: 100%;
+  margin-top:10px;
+  float: left;
+  margin-left: 50px;
+}
+.coffee p{
+  margin-top: 15%;
+  margin-left: 10%;
+  font-size: 40px;
+  font-family: Courier New ;  
+  text-align: center;
+
+}
+.location p{
+  margin-top: 20%;
+  margin-right: 50%;
+  margin-left: 10%;
+  font-size: 30px;
+  font-family: Georgia;  
+  text-align: center;
+}
+.loc{
+    position: relative;
+  width: 100%;
+  float: right;
+  margin: 10px;
+  margin-right: 15%;
+  padding-top: 20px;
+}
+
+
+  hr {
+width: 80%;
+height: 10px;
+background-color: black;
+margin-right: auto;
+margin-left: auto;
+margin-top: 10%;
+margin-bottom: 10px;
+}
+
+
+.A{
+	  position: relative;
+  width: 100%;
+  float: left;
+  margin-top:10px;
+}
+.B{
+	  position: relative;
+  width: 100%;
+  float: left;
+  margin-top:10px;
+}
+.C{
+	  position: relative;
+  width: 100%;
+  float: left;
+  margin-top:10px;
+}
+.D{
+	  position: relative;
+  width: 100%;
+  float: left;
+  margin-top:10px;
+}
+.E{
+	  position: relative;
+  width: 100%;
+  float: left;
+  margin-top:10px;
+}
+.F{
+	  position: relative;
+  width: 100%;
+  float: left;
+  margin-top:10px;
+}
+.G{
+	  position: relative;
+  width: 100%;
+  float: left;
+  margin-top:10px;
+}
+.H{
+	  position: relative;
+  width: 100%;
+  float: left;
+  margin-top:10px;
+}
+.I{
+	 position: relative;
+  width: 100%;
+  float: left;
+  margin-top:10px;
+}
+.J{
+	  position: relative;
+  width: 100%;
+  float: left;
+  margin-top:10px;
+}
+.K{
+	  position: relative;
+  width: 100%;
+  float: left;
+  margin-top:10px;
+}
+.L{
+    position: relative;
+  width: 100%;
+  float: left;
+  margin-top:10px;
+}
+.M{
+	  position: relative;
+  width: 100%;
+  float: left;
+  margin-top:10px;
+}
+.N{
+    position: relative;
+  width: 100%;
+  float: left;
+  margin-top:10px;
+}
+.O{
+    position: relative;
+  width: 100%;
+  float: left;
+  margin-top:10px;
+}
+.P{
+    position: relative;
+  width: 100%;
+  float: left;
+  margin-top:10px;
+}
+.Q{
+    position: relative;
+  width: 100%;
+  float: left;
+  margin-top:10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+  .A:hover .overlay {
+  opacity: 1;
+}
+  .B:hover .overlay {
+  opacity: 1;
+}
+  .C:hover .overlay {
+  opacity: 1;
+}
+  .D:hover .overlay {
+  opacity: 1;
+}
+  .E:hover .overlay {
+  opacity: 1;
+}
+  .F:hover .overlay {
+  opacity: 1;
+}
+  .G:hover .overlay {
+  opacity: 1;
+}
+  .H:hover .overlay {
+  opacity: 1;
+}
+  .I:hover .overlay {
+  opacity: 1;
+}
+  .J:hover .overlay {
+  opacity: 1;
+}
+  .K:hover .overlay {
+  opacity: 1;
+}
+  .L:hover .overlay {
+  opacity: 1;
+}
+  .M:hover .overlay {
+  opacity: 1;
+}
+  .N:hover .overlay {
+  opacity: 1;
+}
+  .O:hover .overlay {
+  opacity: 1;
+}
+  .P:hover .overlay {
+  opacity: 1;
+}
+  .Q:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: black;
+  font-size: 30px;
+  font-family: Georgia;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: right;
+
+}
+
+
+      .photo{
+         margin: 30px;
+      }
+
+      .photo h1{
+         text-align: center;
+         font-family: Georgia;
+         font-size: 120px;
+         color:black;
+         position: absolute;
+           top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gallery {
+
+      line-height:0px;
+      -webkit-column-count:3;
+      -webkit-column-gap:5px; 
+      -moz-column-count:3;
+      -moz-column-gap:5px;
+      column-count:3;
+      column-gap:5px;
+
+
+      }
+     .gallery img {
+      width: 100% !important;
+      height: auto !important;
+      margin-bottom:5px; 
+      }
+
+       @media (max-width: 1400px) {
+      .gallery {
+       -moz-column-count:    4;
+       -webkit-column-count: 4;
+       column-count:         4;
+         }
+       }
+
+      @media (max-width: 1200px) {
+      .gallery {
+      -moz-column-count:    3;
+      -webkit-column-count: 3;
+       column-count:        3;
+         }
+      }
+
+      @media (max-width: 1000px) {
+      .gallery {
+      -moz-column-count:    2;
+      -webkit-column-count: 2;
+      column-count:         2;
+         }
+      }
+
+     @media (max-width: 400px) {
+      .gallery {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+      }
+     
+
+
+
+
+
+
+
+
+     
+
+ }
+   .contact{float: none;
+    }
+    .contact .C{
+     font-size:120px;
+     color:Black;
+     font-family: Georgia; 
+  	text-align: center;
+    margin: 20px;
+    }
+    .contact input[type="text"]
+    {
+     width:43%;
+     height:40px;
+     font-size:20px;
+     font-family: Arial;
+     margin-left: 30%;
+     margin-bottom: 10px;
+     background-color: rgb(200,162,122);
+    }
+    ::placeholder {
+     color: white;
+    }
+    .contact input[type="send"]
+    {
+     width:15%;
+     height:40px;
+     font-size:20px;
+     font-family: Arial;
+     font-weight: 5000;
+     color:white;
+     text-align: center;
+     margin-left: 43%;
+     margin-bottom: 70px;
+    background-color: black;
+    }
+    .contact input[type="send"]:hover{
+     background-color: rgb(200,162,122);
+    }
+        .contact textarea
+    {
+     width: 10%;
+     height:100px;
+     font-size:20px;
+     font-family: Arial;
+     padding: 5px;
+     background-color: rgb(200,162,122);
+     margin-left: 31%;
+    }
+    .contact textarea{
+     width:40%;
+}
+
+
+
+
